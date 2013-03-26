@@ -1,0 +1,27 @@
+{
+    "name": "teepluss/debug",
+    "description": "",
+    "authors": [
+        {
+            "name": "Teepluss",
+            "email": "admin@laravel.in.th"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/leeoniya/dump_r.php.git"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x",
+        "leeoniya/dump-r": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Teepluss\\Debug": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
