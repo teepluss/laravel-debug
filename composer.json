@@ -1,6 +1,10 @@
 {
     "name": "teepluss/debug",
-    "description": "",
+    "description": "Pretty dump",
+    "keywords": ["laravel", "laravel4", "dump_r"],
+    "homepage": "https://github.com/teepluss/laravel-debug.git",
+    "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "Teepluss",
@@ -21,6 +25,11 @@
     "autoload": {
         "psr-0": {
             "Teepluss\\Debug": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
         }
     },
     "minimum-stability": "dev"
